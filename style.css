@@ -1,0 +1,45 @@
+side-bar form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+side-bar form * {
+    padding: 5px 0;
+    margin-bottom: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+side-bar {
+    flex-basis: 500px;
+}
+
+.joke-list {
+    flex-basis: 500px;
+}
+
+.joke-list .joke,
+.suggest-list .joke {
+    border-bottom: 1px solid gray;
+    padding: 20px 0;
+}
+
+.suggest-list .list {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.pagination {
+    padding: 20px 0;
+}
+
+.pagination a {
+    font-size: 18px;
+    margin-right: 10px;
+}
